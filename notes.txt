@@ -16,3 +16,7 @@ Create a file (I called mine app.py) and type all of this in it:
       @app.route('/')   #note:  some tutorials has double quotes (they didn't work for me....so I used single quotes)
       def home():
         return "Hello World, from Flask!"
+
+Connect to GitHub (create a repository):
+    - Go to source control on the left side of screen and click on Intialize Repository
+    - Go to Command Pallette and type: Git:Create Branch
