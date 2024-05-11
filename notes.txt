@@ -17,6 +17,13 @@ Create a file (I called mine app.py) and type all of this in it:
       def home():
         return "Hello World, from Flask!"
 
+To run the file (run file on server)....these were typed in powershell:
+    - python -m flask run
+    - or, you can type this:  python -m flask --app .\app.py run
+
 Connect to GitHub (create a repository):
     - Go to source control on the left side of screen and click on Intialize Repository
     - Go to Command Pallette and type: Git:Create Branch
+
+Create requirements.txt file (in powershell):
+    - pip freeze > requirements.txt
